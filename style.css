@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.register {
+  border: 2px solid black;
+  width: 40%;
+}
+
+.input-gender {
+  border: 1px solid #cbcfd5;
+  border-radius: 2px;
+  background-color: #f4f6f7;
+  margin-left: 10px;
+}
+.input-short {
+  border: 1px solid #cbcfd5;
+  background-color: #f4f6f7;
+  padding: 5px;
+  width: 250px;
+}
+.input-long {
+  border: 1px solid #cbcfd5;
+  background-color: #f4f6f7;
+  padding: 5px;
+  width: 504px;
+}
+
+.finalize-registration {
+  font-size: 20px;
+  border-radius: 2px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #00cd30;
+  background-color: #00cd30;
+  color: white;
+  cursor: pointer;
+}
+
+/*Responsividade*/
