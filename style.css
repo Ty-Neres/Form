@@ -7,6 +7,9 @@
 }
 
 .register {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   border: 2px solid black;
   width: 40%;
 }
@@ -21,13 +24,13 @@
   border: 1px solid #cbcfd5;
   background-color: #f4f6f7;
   padding: 5px;
-  width: 250px;
+  width: 30%;
 }
 .input-long {
   border: 1px solid #cbcfd5;
   background-color: #f4f6f7;
   padding: 5px;
-  width: 504px;
+  width: 60.5%;
 }
 
 .finalize-registration {

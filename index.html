@@ -18,7 +18,13 @@
       <div style="font-size: 40px"><b>Cadastre-se</b></div>
       <div style="font-size: 18px">É rápido e fácil.</div>
       <hr style="padding: 0px" />
-      <form action="">
+      <form
+        name="signup"
+        onsubmit=""
+        autocomplete="off"
+        method="post"
+        action=""
+      >
         <div>
           <input
             class="input-short"
@@ -61,6 +67,7 @@
 
         <div>
           <select
+            class="input-gender"
             style="border: 1px solid #cbcfd5"
             name="birth-day"
             id="birth-day"
@@ -97,7 +104,12 @@
             <option value="30">30</option>
             <option value="31">31</option>
           </select>
-          <select style="border: 1px solid #cbcfd5" name="birth-month" id="">
+          <select
+            class="input-gender"
+            style="border: 1px solid #cbcfd5"
+            name="birth-month"
+            id=""
+          >
             <option value="jan">Jan</option>
             <option value="fev">Fev</option>
             <option value="mar">Mar</option>
@@ -112,6 +124,7 @@
             <option value="dez">Dez</option>
           </select>
           <select
+            class="input-gender"
             style="border: 1px solid #cbcfd5"
             name="birth-year"
             id="birth-year"
@@ -153,11 +166,9 @@
           <input type="radio" name="gender" id="male" required />
         </span>
         <div>
-          <input
-            class="finalize-registration"
-            type="submit"
-            value="Cadastre-se"
-          />
+          <button type="submit" class="finalize-registration" type="submit">
+            Cadastre-se
+          </button>
         </div>
       </form>
     </div>
